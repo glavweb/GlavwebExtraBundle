@@ -1,0 +1,28 @@
+{
+    "name": "glavweb/extra-bundle",
+    "type": "symfony-bundle",
+    "description": "Shared primitives for Glavweb bundles (no dependency on framework-bundle)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Nilov",
+            "email": "nilov@glavweb.ru",
+            "homepage": "https://glavweb.ru"
+        },
+        {
+            "name": "Glavweb Community",
+            "homepage": "https://github.com/glavweb/GlavwebExtraBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=8.4",
+        "symfony/http-foundation": "^8.0",
+        "symfony/http-kernel": "^8.0",
+        "symfony/dependency-injection": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Glavweb\\ExtraBundle\\": "src/"
+        }
+    }
+}
